@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 16
+    commands:
+      - echo Getting Started
+  pre_build:
+    commands:
+      - echo Installing NPM Source Dependencies
+      - npm install
+      - aws --version
+  build:
+    commands:
+      - echo Build Started on `date`
+      - echo First Test Codes
+      - echo Compiling the NodeJS Code
+      - npm run build
+      - echo Build Finished, now moving to S3 Bucket
+  post_build:
+    commands:
+      - echo Build Completed on `date`
+      - ls
+      - pwd
+      - aws s3 sync build/
+      - aws s3 cp --recursive ./build s3://react-portfolio-demo --acl public-read
