@@ -32,13 +32,13 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https:/facebook.com/4970">
+        <a href="https:/facebook.com/clumsyfaisal">
           <FaFacebookF />
         </a>
-        <a href="https:/instagram.com">
+        <a href="https:/instagram.com/clumsyfaisal">
           <FiInstagram />
         </a>
-        <a href="https:/twitter.com">
+        <a href="https:/twitter.com/clumsyfaisal">
           <IoLogoTwitter />
         </a>
       </div>

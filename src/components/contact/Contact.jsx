@@ -15,19 +15,19 @@ const Contact = () => {
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5></h5>
-            <a href="mailto:afzalahmad444@gmail.com">send a message</a>
+            <a href="mailto:faisalansari4696@gmail.com">send a message</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5></h5>
-            <a href="https://facebook.com/afzal4970">send a message</a>
+            <a href="https://facebook.com/clumsyfaisal">send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
-            <h5>+91-9540842191</h5>
-            <a href="https://api.whatsapp.com/send?phone+9540842191">
+            <h5>+91-9990622210</h5>
+            <a href="https://api.whatsapp.com/send?phone+9990622210">
               send a message
             </a>
           </article>
