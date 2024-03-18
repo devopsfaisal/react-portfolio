@@ -8,7 +8,7 @@ phases:
       - echo Getting Started
   pre_build:
     commands:
-      - echo Installing NPM Source Dependencies
+      - echo Installing npm source dependencies
       - npm install
       - aws --version
   build:
